@@ -3,7 +3,7 @@
 Para construir o XML da NFe (ou da NFCe) deve ser usada a classe Make::class
 
 ## *NOTA: Esta classe agora recebe os parâmetros dos métodos em forma de stdClass e não mais com variáveis individuais. É importante salientar que os campos do stdClass devem ser nomeados com a EXATA nomenclatura contida no manual ou conforme a nomenclatura das estruturas do TXT, observando as letras maiuscula se minusculas.*
-## *NOTA: Procure observar a ordem em os métodos devem ser usados. Carregar os dados em sequencia errada pode causar problemas, especialmente em nodes dependentes.*
+## *NOTA: Procure observar a ordem em que os métodos devem ser usados. Carregar os dados em sequencia errada pode causar problemas, especialmente em nodes dependentes.*
 
 Esses stdClass pode ser criados diretamente como demonstrado nos exemplos abaixo, mas também podem ser criados a partir de matrizes.
 
